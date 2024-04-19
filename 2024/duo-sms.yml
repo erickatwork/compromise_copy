@@ -1,8 +1,7 @@
-# Duo third-party data breach exposed SMS MFA logs
-
-Link: https://app.securitymsp.cisco.com/e/es?e=2785&eid=opguvrs&elq=bd1c1886a59e40c09915b029a74be94e
-
-```text
+---
+title: Duo third-party data breach exposed SMS MFA logs
+link: https://app.securitymsp.cisco.com/e/es?e=2785&eid=opguvrs&elq=bd1c1886a59e40c09915b029a74be94e
+text: |0
 Hi there,
 
 We are writing to inform you of an incident involving one of our Duo telephony suppliers (the “Provider”) that Duo uses to send multifactor authentication (MFA) messages via SMS and VOIP to its customers. Cisco is actively working with the Provider to investigate and address the incident. While the investigation is ongoing, the following is a summary of the incident based on what we have learned to date.
@@ -18,4 +17,3 @@ Because the threat actor obtained access to the message logs through a successfu
 Sincerely,
 
 The Cisco Data Privacy and Incident Response Team
-```
