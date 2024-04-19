@@ -1,0 +1,21 @@
+# Duo third-party data breach exposed SMS MFA logs
+
+Link: https://app.securitymsp.cisco.com/e/es?e=2785&eid=opguvrs&elq=bd1c1886a59e40c09915b029a74be94e
+
+```text
+Hi there,
+
+We are writing to inform you of an incident involving one of our Duo telephony suppliers (the “Provider”) that Duo uses to send multifactor authentication (MFA) messages via SMS and VOIP to its customers. Cisco is actively working with the Provider to investigate and address the incident. While the investigation is ongoing, the following is a summary of the incident based on what we have learned to date.
+
+It is our understanding from the Provider that a threat actor gained access to the Provider’s internal systems, on April 1, 2024, using a Provider employee’s credentials that the threat actor illicitly obtained through a phishing attack and used that access to download a set of MFA SMS message logs pertaining to your Duo account. More specifically, the threat actor downloaded message logs for SMS messages that were sent to certain users under your Duo account between March 1, 2024 and March 31, 2024. The message logs did not contain any message content but did contain the phone number, phone carrier, country, and state to which each message was sent, as well as other metadata (e.g., date and time of the message, type of message, etc.). The Provider confirmed that the threat actor did not download or otherwise access the content of any messages or use their access to the Provider’s internal systems to send any messages to any of the numbers contained in the message logs.
+
+According to the Provider, upon discovering the incident, the Provider immediately commenced an investigation and implemented mitigation measures, including immediately invalidating the employee’s credentials, analyzing activity logs, and notifying Cisco of the incident. The Provider also started implementing measures to prevent similar incidents from occurring in the future and additional technical measures to further mitigate the risk associated with social engineering attacks. The Provider confirmed that they will also require employees to undergo additional social engineering awareness training.
+
+The Provider has provided us with a copy of the message logs pertaining to your Duo account that the threat actor obtained, and we will provide you with a copy of those logs upon request. To request such a copy, or if you have any questions, please contact msp@duo.com.
+
+Because the threat actor obtained access to the message logs through a successful social engineering attack on the Provider, please contact your customers with affected users whose phone numbers were contained in the message logs to notify them, without undue delay, of this event and to advise them to be vigilant and report any suspected social engineering attacks to the relevant incident response team or other designated point of contact for such matters. Please also consider educating your users on the risks posed by social engineering attacks and investigating any suspicious activity.
+
+Sincerely,
+
+The Cisco Data Privacy and Incident Response Team
+```

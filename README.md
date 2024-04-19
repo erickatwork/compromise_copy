@@ -1,2 +1,3 @@
-# compromise_copy
-Repo of customer notifications
+# incident-notification-copy
+
+Repo of customer notifications.
