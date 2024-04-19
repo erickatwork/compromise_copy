@@ -1,0 +1,28 @@
+---
+title: Slack Security Update 
+link: https://slack.com/blog/news/slack-security-update#:~:text=What%20happened,our%20externally%20hosted%20GitHub%20repository.
+text: |
+  We recently became aware of a security issue involving unauthorized access to a subset of Slack’s code repositories. Our customers were not affected, no action is required, and the incident was quickly resolved. Because we take security, privacy, and transparency very seriously, we are sharing the details of the incident below.
+
+  What happened
+  On December 29, 2022, we were notified of suspicious activity on our GitHub account. Upon investigation, we discovered that a limited number of Slack employee tokens were stolen and misused to gain access to our externally hosted GitHub repository. Our investigation also revealed that the threat actor downloaded private code repositories on December 27. No downloaded repositories contained customer data, means to access customer data, or Slack’s primary codebase.
+
+  Our response and investigation
+  When notified of the incident, we immediately invalidated the stolen tokens and began investigating potential impact to our customers. Our current findings show that the threat actor did not access other areas of Slack’s environment, including the production environment, and they did not access other Slack resources or customer data. There was no impact to our code or services, and we have also rotated all relevant credentials as a precaution.
+
+  Based on currently available information, the unauthorized access did not result from a vulnerability inherent to Slack. Our investigation has shown that a third-party vendor was compromised. We have worked with the vendor on credential rotation and are ensuring the security of tokens going forward.
+
+  We will continue to investigate and monitor for further exposure. We have put additional, increased alerting in place to monitor our externally hosted GitHub repository. We are also working with our vendors and security partners to ensure that tokens used to access any Slack repositories are stored safely and securely.
+
+  FAQ
+  What is a code repository?
+  A code repository is a library of software code. In addition to the code itself, the repository holds documentation, notes, web pages and tracks changes.
+
+  How was I impacted?
+  There was no customer impact, and no action needs to be taken by customers.
+
+  Who can I reach if I have additional questions?
+  If you have any additional questions, please contact us at feedback@slack.com.
+tags:
+  - slack
+  - github
