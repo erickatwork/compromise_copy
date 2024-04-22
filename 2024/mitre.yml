@@ -1,0 +1,18 @@
+---
+title: MITRE Response to Cyber Attack in One of Its R&D Networks
+link: https://www.mitre.org/news-insights/news-release/mitre-response-cyber-attack-one-its-rd-networks
+text: |
+  McLean, Va., April 19, 2024 – MITRE today disclosed that despite its fervent commitment to safeguarding its digital assets, it experienced a breach that underscores the nature of modern cyber threats. After detecting suspicious activity on its Networked Experimentation, Research, and Virtualization Environment (NERVE), a collaborative network used for research, development, and prototyping, compromise by a foreign nation-state threat actor was confirmed.
+
+  Following detection of the incident, MITRE took prompt action to contain the incident, including taking the NERVE environment offline, and quickly launched an investigation with the support of in-house and leading third-party experts. The investigation is ongoing, including to determine the scope of information that may be involved. 
+
+  MITRE has contacted authorities and notified affected parties and is working to restore operational alternatives for collaboration in an expedited and secure manner. 
+
+  “No organization is immune from this type of cyber attack, not even one that strives to maintain the highest cybersecurity possible,” said Jason Providakes, president and CEO, MITRE. “We are disclosing this incident in a timely manner because of our commitment to operate in the public interest and to advocate for best practices that enhance enterprise security as well necessary measures to improve the industry’s current cyber defense posture. The threats and cyber attacks are becoming more sophisticated and require increased vigilance and defense approaches. As we have previously, we will share our learnings from this experience to help others and evolve our own practices.”
+
+  NERVE is an unclassified collaborative network that provides storage, computing, and networking resources. Based on our investigation to date, there is no indication that MITRE’s core enterprise network or partners’ systems were affected by this incident.
+
+tags:
+  - mitre
+  - ivanti
+  - vpn
